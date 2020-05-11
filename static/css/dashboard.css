@@ -1,0 +1,131 @@
+#main-nav {
+    box-shadow: none;
+    padding: 0 1rem;
+    background: none;
+    position: fixed;
+    top: 0;
+    z-index: 104;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+nav{
+    color: white;
+    width: 100%;
+    height: 56px;
+    line-height: 56px;
+}
+nav .nav-wrapper {
+    position: relative;
+    height: 100%;
+}
+
+#main-nav a {
+    color: inherit;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+
+.brand-logo {
+    position: absolute;
+    right: 0;
+    /*display: -webkit-box;*/
+    /*display: -webkit-flex;*/
+    /*display: -ms-flexbox;*/
+    /*display: flex;*/
+    /*height: 100%;*/
+    /*-webkit-box-align: center;*/
+    /*-webkit-align-items: center;*/
+    /*-ms-flex-align: center;*/
+    /*align-items: center;*/
+    /*font-size: 1.4rem;*/
+    /*text-transform: uppercase;*/
+    /*letter-spacing: 0.4rem;*/
+}
+
+#main-nav #nav-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 1;
+}
+
+.gradient-color {
+    background: #059445;
+}
+
+#main-nav .button-collapse {
+    height: 100%;
+    position: absolute;
+
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -ms-grid-row-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+
+@media screen and (max-width: 992px) {
+    html {
+        font-size: 13px;
+    }
+
+    .owl-nav {
+        display: none;
+    }
+
+    #main-nav .button-collapse {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+.back svg{
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+
+@media screen and (max-width: 992px) {
+
+}
+
+.photos-text {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+body {
+    background: #059445;
+}
+
+#photos .container {
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.thumbnail {
+    width: 110px;
+    padding-bottom: 5px;
+}
+
+.thumbnail-container {
+    /*padding-top: 5px;*/
+    /*padding-left: 5px;*/
+    background-color: white;
+}
